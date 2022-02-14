@@ -1,0 +1,12 @@
+.weather__day {
+  box-shadow: 1px 1px 5px #6c6c6c;
+  padding: 16px;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.weather__day-title {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 16px;
+}

@@ -1,0 +1,45 @@
+.characterstic {
+  display: flex;
+}
+
+.characterstic.s {
+  max-width: 50%;
+  font-size: 18px; 
+}
+
+.characterstic.m {
+  font-size: 18px;
+  align-items: baseline;
+}
+
+.characterstic.l {
+  align-self: center;
+  height: 28px;
+  font-size: 28px;
+  color: #ec6e4c;
+}
+
+.characterstic.xl {
+  align-self: center;
+  height: 48px;
+  font-size: 48px;
+  color: #ec6e4c;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.m .value {
+  margin-left: auto;
+}
+
+.unit {
+  font-size: 0.7em;
+}
+
+.unit.top {
+  align-self: baseline;
+}

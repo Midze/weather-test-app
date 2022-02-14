@@ -1,0 +1,37 @@
+.notice {
+  position: absolute;
+  left: 50px;
+  right: 50px;
+  z-index: 100;
+  border: 1px solid red;
+  background-color: rgb(253, 224, 219);
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;  
+  animation: in 1.2s forwards;
+  padding-right: 24px;
+}
+
+.notice.hide {
+  animation: out 1.2s forwards;
+}
+
+
+@keyframes in {
+  0% {
+    top: -500px;
+  }
+  100% {
+    top: 50px;
+  }
+}
+
+
+@keyframes out {
+  0% {
+    top: 50px;
+  }
+  100% {
+    top: -500px;
+  }
+}
